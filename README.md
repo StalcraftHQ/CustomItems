@@ -4,11 +4,9 @@ Repository of Custom Items for the needs of StalcraftHQ website
 Contributions to be made via a PR, for approval by a developer or maintainer.
 
 ## Structure
-Custom items are divided by folders according to which section of the website they're used on.
-
-Inside of each folder, there's a `listing.json` file. It is NOT the format used by the [Official Item API](https://github.com/EXBO-Studio/stalcraft-database). The format of ScHQ items listing is streamlined for the website's requirements, and currently:
+The `listing.json` folder is NOT the format used by the [Official Item API](https://github.com/EXBO-Studio/stalcraft-database). The format of ScHQ items listing is streamlined for the website's requirements, and currently:
 - Name Translations are simplified - the additional information is not required as deserializer relies on the property name instead.
-- There's no Data Path or Icon Path - StalcraftHQ client code infers the locations based on item ID.
+- There's no Data Path or Icon Path - instead the location will be inferred automatically to `data` and `img` folders respectively.
 - There's additional `key` property - this is used to determine the item type in a way that is compatible with data contained in [Official Item API](https://github.com/EXBO-Studio/stalcraft-database)
 - Currently there's no `_variants` path for items - all custom items are assumed to be level 0.
 
