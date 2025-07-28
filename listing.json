@@ -1,0 +1,46 @@
+﻿[
+  {
+    "id": "catrpd",
+    "category": "weapon/_schq_april_fools",
+    "key": "item.wpn.schq.catrpd",
+    "name": {
+      "en": "Cat Silenced RPD",
+      "ru": "РПД замолчал из-за Кота",
+      "pl": "RPD Wyciszony Kotem"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "id": "wetglock",
+    "category": "weapon/_schq_april_fools",
+    "key": "item.wpn.schq.wetglock",
+    "name": {
+      "en": "Wet Glock",
+      "ru": "Мокрый Глок",
+      "pl": "Mokry Glock"
+    },
+    "color": "RANK_NEWBIE"
+  },
+  {
+    "id": "buggs",
+    "category": "armor/_schq_april_fools",
+    "key": "item.arm.schq.buggs",
+    "name": {
+      "en": "Bunny Disguise",
+      "ru": "Костюм зайчика",
+      "pl": "Przebranie Króliczka"
+    },
+    "color": "QUEST_ITEM"
+  },
+  {
+    "id": "boris",
+    "category": "armor/_schq_april_fools",
+    "key": "item.arm.schq.boris",
+    "name": {
+      "en": "Life of Boris",
+      "ru": "Жизнь Бориса",
+      "pl": "Życie Borysa"
+    },
+    "color": "RANK_LEGEND"
+  }
+]
