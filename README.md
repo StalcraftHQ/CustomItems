@@ -19,6 +19,6 @@ The structure is prone to change at any point to accomodate requirements of Stal
 The GitHub repository-based approach is subject for change or removal at any time.
 
 ## License
-Copyright (c) 2020 TehGM
+Copyright (c) 2025 TehGM
 
 Licensed under [GNU Affero General Public License v3.0](LICENSE) (GNU AGPL-3.0).
