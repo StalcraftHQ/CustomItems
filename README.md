@@ -7,8 +7,8 @@ Contributions to be made via a PR, for approval by a developer or maintainer.
 The `listing.json` folder is NOT the format used by the [Official Item API](https://github.com/EXBO-Studio/stalcraft-database). The format of ScHQ items listing is streamlined for the website's requirements, and currently:
 - Name Translations are simplified - the additional information is not required as deserializer relies on the property name instead.
 - There's no Data Path or Icon Path - instead the location will be inferred automatically to `data` and `img` folders respectively.
-- There's additional `key` property - this is used to determine the item type in a way that is compatible with data contained in [Official Item API](https://github.com/EXBO-Studio/stalcraft-database)
-- Currently there's no `_variants` path for items - all custom items are assumed to be level 0.
+- There's additional `key` property - this is used to determine the item type in a way that is compatible with data contained in [Official Item API](https://github.com/EXBO-Studio/stalcraft-database).
+- `_variants` path for items - is supported - it has to go BEFORE the value of `id` property, but otherwise supports the same format as [Official Item API](https://github.com/EXBO-Studio/stalcraft-database).
 
 Data of specific item has the same format as items on [Official Item API](https://github.com/EXBO-Studio/stalcraft-database) due to the complexity and compatibility reasons.
 
@@ -17,6 +17,6 @@ The structure is prone to change at any point to accomodate requirements of Stal
 The GitHub repository-based approach is subject for change or removal at any time.
 
 ## License
-Copyright (c) 2025 TehGM
+Copyright (c) 2025 StalcraftHQ & TehGM
 
 Licensed under [GNU Affero General Public License v3.0](LICENSE) (GNU AGPL-3.0).
