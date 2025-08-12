@@ -42,5 +42,15 @@
       "pl": "Życie Borysa"
     },
     "color": "RANK_LEGEND"
+  },
+   {
+    "id": "longevity",
+    "category": "armor/scientist",
+    "key": "item.arm.longevity",
+    "name": {
+      "en": "Longevity",
+      "ru": "«Долгожитель»"
+    },
+    "color": "RANK_MASTER"
   }
 ]
