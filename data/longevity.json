@@ -1,9 +1,9 @@
 {
   "id": "longevity",
-  "category": "armor/",
+  "category": "armor/scientist",
   "name": {
     "type": "translation",
-    "key": "item.arm.schq.longevity.name",
+    "key": "item.arm.longevity.name",
     "args": {},
     "lines": {
       "en": "Longevity",
@@ -577,7 +577,7 @@
       },
       "text": {
         "type": "translation",
-        "key": "item.arm.schq.longevity.description",
+        "key": "item.arm.longevity.description",
         "args": {},
         "lines": {
           "en": ""
@@ -585,4 +585,5 @@
       }
     }
   ]
+
 }
