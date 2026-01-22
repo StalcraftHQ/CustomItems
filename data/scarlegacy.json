@@ -128,7 +128,7 @@
               "es": "Daño"
             }
           },
-          "value": 51.8
+          "value": 51.80
         }
       ]
     },
@@ -159,6 +159,29 @@
             }
           }
         },
+		{
+		  "type": "numeric",
+		  "name": {
+			"type": "translation",
+			"key": "weapon.tooltip.weapon.info.rate_of_fire",
+			"args": {},
+			"lines": {
+			  "ru": "Скорострельность",
+			  "en": "Rate of fire",
+			  "es": "Cadencia de disparo"
+			}
+		  },
+		  "value": 625.0,
+		  "formatted": {
+			"value": {
+			  "ru": "625 выстр/мин",
+			  "en": "625 shots/min",
+			  "es": "625 disparos/min"
+			},
+			"nameColor": "838383",
+			"valueColor": "EEEEEE"
+		  }
+		},
         {
           "type": "text",
           "text": {
@@ -177,7 +200,7 @@
 
     {
       "type": "damage",
-      "startDamage": 51.8,
+      "startDamage": 51.80,
       "damageDecreaseStart": 12.0,
       "endDamage": 34.22,
       "damageDecreaseEnd": 52.0,
