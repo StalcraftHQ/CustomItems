@@ -1,6 +1,6 @@
 {
   "id": "wetglock",
-  "category": "weapon/AssaultRifles",
+  "category": "weapon/assault_rifle",
   "name": {
     "type": "translation",
     "key": "item.wpn.scarlegacy.name",
