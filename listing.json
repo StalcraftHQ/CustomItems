@@ -44,6 +44,16 @@
     "color": "RANK_LEGEND"
   },
    {
+    "id": "scarlegacy",
+    "category": "weapon/assault_rifle",
+    "key": "item.wpn.scarlegacy",
+    "name": {
+      "en": "Legacy SCAR-L",
+      "ru": "SCAR-L «Наследие»",
+    },
+    "color": "RANK_MASTER"
+  },
+   {
     "id": "longevity",
     "category": "armor/scientist",
     "key": "item.arm.longevity",
