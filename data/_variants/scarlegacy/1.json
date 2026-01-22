@@ -1,5 +1,5 @@
 {
-  "id": "scarlegacy",
+  "id": "wetglock",
   "category": "weapon/assault_rifle",
   "name": {
     "type": "translation",
@@ -207,12 +207,12 @@
               "es": "Daño"
             }
           },
-          "value": 51.80,
+          "value": 52.190,
           "formatted": {
             "value": {
-              "ru": "51,80 ед",
-              "en": "51.80 unit(s)",
-              "es": "51.80 unidad(es)"
+              "ru": "52,190 ед",
+              "en": "52.190 unit(s)",
+              "es": "52.190 unidad(es)"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -570,9 +570,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 51.8,
-      "damageDecreaseStart": 0.12,
-      "endDamage": 34.22,
+      "startDamage": 52.19,
+      "damageDecreaseStart": 12.0,
+      "endDamage": 34.48,
       "damageDecreaseEnd": 52.0,
       "maxDistance": 155.0
     },
